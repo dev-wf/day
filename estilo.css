@@ -44,6 +44,7 @@ footer {
 /* 2 – Interna contendo conteúdo/footer */
 /*  Telas menores que 600px */
 @media screen and (max-width: 17.5rem) {
+ 
   main {
     display: none;
   }

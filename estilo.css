@@ -5,7 +5,10 @@
   --roxo: #8134af;
   --claro: #f2317f;
 }
-
+.bg {
+  background: #141e30;
+  background: linear-gradient(to top, #0e1421, #17283a);
+}
 * {
   font-family: "Prompt", sans-serif;
   padding: 0px;
@@ -21,6 +24,7 @@ body {
   min-height: 100%;
   position: relative;
 }
+
 footer {
   /* 3 – Footer */
   border-top: 1px solid var(--rosa);

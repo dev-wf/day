@@ -33,3 +33,22 @@ footer {
   bottom: 0;
   position: absolute;
 }
+.perfil {
+  width: 10rem;
+  left: 0;
+}
+.mobile {
+  display: none;
+}
+
+/* 2 – Interna contendo conteúdo/footer */
+/*  Telas menores que 600px */
+@media screen and (max-width: 17.5rem) {
+  main {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    color: var(--rosa);
+  }
+}

@@ -1,28 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
-/* Variables */
+/* Criado por: Welington Fernandes */
 :root {
   --font-family: "Roboto", sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
+  --bg-color: #202020;
+  --primary-color: #ab20fd;
+  --secondary-color: #f600b0fa;
+  --primary-shadow: #f600b0fa;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
-/* Variables end */
+/* Variaveis */
 
 html {
   scroll-behavior: smooth;
 }
 
-/* CSS Resets */
+/* CSS Layout Padrao */
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +45,8 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-image: linear-gradient(to right, #151515 0%, rgb(0, 0, 0) 100%);
+  color: var(--primary-color);
 }
 
 section {
@@ -64,8 +66,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to right, #151515 0%, rgb(0, 0, 0) 100%);
+  box-shadow: 0 2px 5px var(--primary-shadow);
 }
 
 nav h1 {
@@ -98,7 +100,7 @@ nav ul li {
   cursor: pointer;
   display: none;
 }
-/* Navbar ends */
+/* Navbar fim */
 
 /* Hero section */
 .hero {
@@ -108,6 +110,7 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  background-color: transparent;
 }
 
 .hero img {
@@ -119,7 +122,8 @@ nav ul li {
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+
+  box-shadow: 0px 2px 5px 2px var(--primary-shadow);
 }
 
 .bio h1 {
@@ -130,11 +134,11 @@ nav ul li {
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
-/* Hero section ends */
+/* Hero section fim */
 
-/* More about */
+/* Mais sobre */
 .more-about {
-  background-color: var(--bg-color);
+  background-color: transparent;
   padding: 1rem 6rem;
 }
 
@@ -151,6 +155,7 @@ nav ul li {
 
 /* Skills section */
 .skills {
+  background-color: transparent;
   max-width: 68.75rem;
   margin: auto;
   text-align: center;
@@ -173,7 +178,7 @@ nav ul li {
 
 /* Projects section */
 .projects {
-  background-color: var(--bg-color);
+  background-color: transparent;
   padding: 32px 0;
   margin-top: 2rem;
 }
@@ -309,7 +314,7 @@ nav ul li {
 
 /* Footer section */
 footer {
-  background-color: var(--bg-color);
+  background-color: transparent;
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
@@ -318,15 +323,15 @@ footer {
 
 /* General (utilities) */
 .icon-card {
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 3px 5px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;

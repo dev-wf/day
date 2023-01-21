@@ -53,28 +53,24 @@ section {
   margin: auto; */
 }
 audio {
-  width: 250px;
-  height: 25px;
+  width: 150px;
+  height: 20px;
 }
 
 audio::-webkit-media-controls-panel,
 video::-webkit-media-controls-panel {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
   /*border-radius: 90px;*/
 }
-
-audio::-webkit-media-controls-mute-button {
+audio::-webkit-media-controls-timeline {
   display: none !important;
 }
 
-audio::-webkit-media-controls-volume-slider {
+audio::-webkit-media-controls-current-time-display {
   display: none !important;
 }
 
-audio::-webkit-media-controls-volume-control-container.closed {
-  display: none !important;
-}
-audio::-webkit-media-controls-volume-control-container {
+audio::-webkit-media-controls-time-remaining-display {
   display: none !important;
 }
 

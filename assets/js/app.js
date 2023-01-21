@@ -2,7 +2,7 @@
 const burger = document.querySelector("#burger-menu");
 const ul = document.querySelector("nav ul");
 const nav = document.querySelector("nav");
-
+const musica = document.querySelector("#musica").autoplay;
 // Scroll to top selection
 const scrollUp = document.querySelector("#scroll-up");
 
@@ -29,3 +29,8 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+function playS() {
+  musica.autoplay = true;
+  musica.load();
+}

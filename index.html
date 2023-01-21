@@ -19,18 +19,11 @@
   <title>Daynara Vitoria | Web Developer</title>
 </head>
 
-<body>
+<body onload="playS();">
   <!-- Navbar -->
   <nav>
     <h1>Daynara Vitoria Silva Borrego</h1>
     <ul class="navigation">
-      <li>
-        <audio autoplay>
-          <source src="/assets/music.mp3" type="audio/ogg">
-          <source src="/assets/music.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-      </li>
       <li><a href="#about" class="nav-link">Sobre</a></li>
       <li><a href="#skills" class="nav-link">Skills</a></li>
       <li><a href="#projects" class="nav-link">Projetos</a></li>
@@ -130,6 +123,11 @@
 
   <!-- Footer section -->
   <footer>
+    <audio id="musica" autoplay>
+      <source src="/assets/music.mp3" type="audio/ogg">
+      <source src="/assets/music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
     <p class="copy">&copy; Copyright 2023</p>
     <p class="copy">
       &#x2661;<a href="https://github.com/dev-wf" target="_blank">Welington Fernandes</a>&#x2661;

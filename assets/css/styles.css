@@ -33,7 +33,9 @@ html {
 ul {
   list-style-type: none;
 }
-
+audio{
+  
+}
 a {
   text-decoration: none;
   color: var(--primary-color);

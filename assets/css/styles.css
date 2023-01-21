@@ -52,6 +52,31 @@ section {
   /* max-width: 1100px;
   margin: auto; */
 }
+audio {
+  width: 250px;
+  height: 25px;
+}
+
+audio::-webkit-media-controls-panel,
+video::-webkit-media-controls-panel {
+  background-color: var(--primary-color);
+  /*border-radius: 90px;*/
+}
+
+audio::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  display: none !important;
+}
+
+audio::-webkit-media-controls-volume-control-container.closed {
+  display: none !important;
+}
+audio::-webkit-media-controls-volume-control-container {
+  display: none !important;
+}
 
 /* CSS Resets end */
 
